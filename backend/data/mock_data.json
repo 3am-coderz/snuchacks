@@ -1,0 +1,45 @@
+{
+  "business_name": "Ravi General Store",
+  "cash_available": 50000,
+  "daily_burn": 10000,
+  "operational_minimum": 5000,
+  "revenue_variance": 0.3,
+  "obligations": [
+    {
+      "id": 1,
+      "name": "Staff Salaries",
+      "amount": 30000,
+      "due_days": 1,
+      "category": "payroll",
+      "is_critical_path": true,
+      "daily_penalty": 0,
+      "negotiation_probability": 0.1,
+      "vendor_trust_score": 95,
+      "reports_to_bureau": false
+    },
+    {
+      "id": 2,
+      "name": "Ravi Traders (Supplier)",
+      "amount": 40000,
+      "due_days": 2,
+      "category": "supplier",
+      "is_critical_path": true,
+      "daily_penalty": 500,
+      "negotiation_probability": 0.75,
+      "vendor_trust_score": 70,
+      "reports_to_bureau": false
+    },
+    {
+      "id": 3,
+      "name": "Shop Rent",
+      "amount": 20000,
+      "due_days": 3,
+      "category": "rent",
+      "is_critical_path": false,
+      "daily_penalty": 200,
+      "negotiation_probability": 0.65,
+      "vendor_trust_score": 60,
+      "reports_to_bureau": false
+    }
+  ]
+}
