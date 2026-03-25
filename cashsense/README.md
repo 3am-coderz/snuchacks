@@ -1,4 +1,4 @@
-# 💰 Cash Flow Decision Engine (AI CFO)
+# 💰 LIQUIDITY LOGIC ENGINE
 
 > Turning financial data into **real decisions** for small businesses.
 
@@ -29,7 +29,7 @@ This project is an **AI-powered financial decision engine** that:
 
 👉 Not a dashboard.
 👉 Not an expense tracker.
-👉 A **decision-making system (AI CFO)**.
+👉 A **decision-making system**.
 
 ---
 
